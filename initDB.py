@@ -1,6 +1,6 @@
 # coding=utf-8
 import sqlite3
-sql = sqlite3.connect('music.db')
+sql = sqlite3.connect('musicly.db')
 cur = sql.cursor()
 cur.execute('''CREATE TABLE IF NOT EXISTS playlist (
 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -18,7 +18,7 @@ id INTEGER PRIMARY KEY AUTOINCREMENT,
 name TEXT,
 date_of_birth DATE,
 band INT,
-FOREIGN KEY(band) REFERENCES band(id)
+FOREIGN KEY(band) REFERENCES band(id) ON DELETE CASCADE
 )''')
 sql.commit()
 cur.execute('''CREATE TABLE IF NOT EXISTS album (
@@ -27,8 +27,8 @@ name TEXT,
 band INT,
 artist INT,
 num_of_songs INT,
-FOREIGN KEY(band) REFERENCES band(id),
-FOREIGN KEY(artist) REFERENCES artist(id)    
+FOREIGN KEY(band) REFERENCES band(id) ON DELETE CASCADE,
+FOREIGN KEY(artist) REFERENCES artist(id) ON DELETE CASCADE
 )''')
 sql.commit()
 cur.execute('''CREATE TABLE IF NOT EXISTS song (
@@ -41,21 +41,21 @@ album INT,
 band INT,
 lyrics TEXT,
 path TEXT,
-FOREIGN KEY(album) REFERENCES album(id),
-FOREIGN KEY(band) REFERENCES band(id)
+FOREIGN KEY(album) REFERENCES album(id) ON DELETE CASCADE,
+FOREIGN KEY(band) REFERENCES band(id) ON DELETE CASCADE
 )''')
 sql.commit()
 cur.execute('''CREATE TABLE IF NOT EXISTS artist_song (
 artist INT,
 song INT,
-FOREIGN KEY(artist) REFERENCES artist(id),
-FOREIGN KEY(song) REFERENCES song(id)
+FOREIGN KEY(artist) REFERENCES artist(id) ON DELETE CASCADE,
+FOREIGN KEY(song) REFERENCES song(id) ON DELETE CASCADE
 )''')
 cur.execute('''CREATE TABLE IF NOT EXISTS song_playlist (
 song INT,
 playlist INT,
-FOREIGN KEY(song) REFERENCES song(id),
-FOREIGN KEY(playlist) REFERENCES playlist(id)
+FOREIGN KEY(song) REFERENCES song(id) ON DELETE CASCADE,
+FOREIGN KEY(playlist) REFERENCES playlist(id) ON DELETE CASCADE
 )''')
 
 
@@ -177,7 +177,7 @@ Peer pressure whatever, its my planet now\
 Others may fall, I’mma hold my own\
 With Allah’s help I’ll be strong as stone\
 And I’mma be brave and let Al Islam be shown\
-Cause you I know I not afraid to stand alone", "00:04:06", "Urban", 1, 1, "not_afraid.wav")')
+Cause you I know I not afraid to stand alone", "00:04:06", "Urban", 1, 1, "songs/not_afraid.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, band, path) \
 VALUES ("Talaa Badru", "2011:11:18", "He eyes slowly rising \
@@ -192,7 +192,7 @@ He shouts “Here comes the prophet!”\
 His face is a light that drives out the darkness\
 Words are alive – his message is living\
 Joy everywhere, our voices are singing\
-Chorus", "00:03:18", "Pop", 1, 1, "talaa_badru.wav")')
+Chorus", "00:03:18", "Pop", 1, 1, "songs/talaa_badru.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, band, path) \
 VALUES ("25 Rasul", "2015:10:23", "Assolaatu alannabi \
@@ -237,7 +237,7 @@ Sejahtera keatas rasul \
 Nabi - nabi yang diutuskan \
 Mereka semua adalah mulia\
 Terangkan hati kami ya Allah\
-seperti hati rasulMU ya Allah", "00:05:12", "Arabic",2,2, "25_rasul.wav")')
+seperti hati rasulMU ya Allah", "00:05:12", "Arabic",2,2, "songs/25_rasul.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Salam Alikum", "2011:11:18", "You can try and turn off the sun\
@@ -266,7 +266,7 @@ Spread peace on the earth\
 Cherish the love that is around us\
 Spread peace on the earth\
 Treasure the love, let it surround us\
-Always be kind, always remind one another", "00:03:18", "Pop", 4, "salam.wav")')
+Always be kind, always remind one another", "00:03:18", "Pop", 4, "songs/salam.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album,  path) \
 VALUES ("Rasool Allah", "2011:11:18", "Oh, you came into this life\
@@ -323,7 +323,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 4,  "rasool_allah.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 4,  "songs/rasool_allah.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("I Promise", "2011:11:18", "Oh, you came into this life\
@@ -380,7 +380,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "i_promise.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "songs/i_promise.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("The One", "2011:11:18", "Oh, you came into this life\
@@ -437,7 +437,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "the_one.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "songs/the_one.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Let Me Breathe", "2011:11:18", "Oh, you came into this life\
@@ -494,7 +494,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "let_me_breathe.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "songs/let_me_breathe.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("You Are My Life", "2011:11:18", "Oh, you came into this life\
@@ -551,7 +551,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "you_are_my_life.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 4, "songs/you_are_my_life.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album,  path) \
 VALUES ("Baraka Allah", "2011:11:18", "Oh, you came into this life\
@@ -608,7 +608,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 3, "barakallahh.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 3, "songs/barakallahh.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Price Tag", "2011:11:18", "Oh, you came into this life\
@@ -665,7 +665,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 5, "price_tag.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 5, "songs/price_tag.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Subhanallah", "2011:11:18", "Oh, you came into this life\
@@ -722,7 +722,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop",3, "subhanallah.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop",3, "songs/subhanallah.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("The Chosen One", "2011:11:18", "Oh, you came into this life\
@@ -779,7 +779,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 3, "the_chosen_one.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 3, "songs/the_chosen_one.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Ya Nabi", "2011:11:18", "Oh, you came into this life\
@@ -836,7 +836,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 3, "ya_nabi.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 3, "songs/ya_nabi.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Allahu", "2011:11:18", "Oh, you came into this life\
@@ -893,7 +893,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "allahu.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "songs/allahu.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Hasbi Rabbi", "2011:11:18", "Oh, you came into this life\
@@ -950,7 +950,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "hasbi_rabbi.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "songs/hasbi_rabbi.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Ya Mostafa", "2011:11:18", "Oh, you came into this life\
@@ -1007,7 +1007,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "ya_mostafa.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "songs/ya_mostafa.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, album, path) \
 VALUES ("Ya Rasulallah", "2011:11:18", "Oh, you came into this life\
@@ -1064,7 +1064,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "ya_rasulallah.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", 6, "songs/ya_rasulallah.wav")')
 
 cur.execute('INSERT INTO song(name, release_date, lyrics, length, genre, path) \
 VALUES ("So Real", "2011:11:18", "Oh, you came into this life\
@@ -1121,7 +1121,7 @@ I’m longing for the day I see your face\
 You brighten up my day\
 And in my heart you’ll stay\
 With every breath I take\
-O Muhammad I will never leave your way", "00:03:18", "Pop", "so_real.wav")')
+O Muhammad I will never leave your way", "00:03:18", "Pop", "songs/so_real.wav")')
 
 cur.execute('INSERT INTO artist_song(artist, song)\
 VALUES (7,4)')

@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52ef067d-14c6-404c-97b7-b401c4f89dd9" name="Default" comment="" />
+    <list default="true" id="52ef067d-14c6-404c-97b7-b401c4f89dd9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Album.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Artist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Band.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Database.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Playlist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Song.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/barakallahh.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i_promise.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/not_afraid.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rasool_allah.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/salam.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/05 The One.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/09 Let Me Breathe.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/11 - Talaâ Badru.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/12 You Are My Life.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Raef - Price Tag_Kun Anta (Jessie J_Humood Cover).mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Raef - So Real feat. Maher Zain-r=idz (Mp3goo.io).mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Raihan - 25 Rasul.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/SubhanAllah.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Tarabyon.com_Sami_Yousef-Allahu.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Tarabyon.com_Sami_Yousef-Hasbi_Rabbi.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Tarabyon.com_Sami_Yousef-Ya_Mustfa.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Tarabyon.com_Sami_Yousef-Ya_Rasulallah.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/The Chosen One.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/songs/Ya Nabi.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/you_are_my_life.wav" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music.db" afterPath="$PROJECT_DIR$/music.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/menna.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/menna.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initDB.py" afterPath="$PROJECT_DIR$/initDB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicly.py" afterPath="$PROJECT_DIR$/musicly.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,26 +43,92 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="musicly.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/musicly.py">
+      <file leaf-file-name="Band.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Band.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="295" column="23" lean-forward="false" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
+            <state relative-caret-position="666">
+              <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="25" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1511603563836" expanded="true" signature="835:890" ph="INSERT INTO band... " />
+                <marker date="1511603563836" expanded="true" signature="1087:1147" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initDB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/initDB.py">
+      <file leaf-file-name="Song.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Song.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3348">
-              <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="234">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1511603563882" expanded="true" signature="1568:1599" ph="DELETE FROM " />
+                <marker date="1511603563882" expanded="true" signature="1631:1672" ph="DELETE FROM " />
+                <marker date="1511603563882" expanded="true" signature="1704:1744" ph="DELETE FROM " />
+                <marker date="1511603563882" expanded="true" signature="2026:2133" ph="INSERT INTO song... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Album.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Album.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1511555946926" expanded="true" signature="1069:1130" ph="DELETE FROM " />
+                <marker date="1511555946926" expanded="true" signature="1326:1390" ph="INSERT INTO album... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Artist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Artist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1511603296707" expanded="true" signature="1029:1104" ph="INSERT INTO artist... " />
+                <marker date="1511603296707" expanded="true" signature="1304:1366" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Playlist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Playlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1511611325120" expanded="true" signature="1795:1886" ph="INSERT INTO song_playlist... " />
+                <marker date="1511611325120" expanded="true" signature="2105:2188" ph="INSERT INTO playlist... " />
+                <marker date="1511611325120" expanded="true" signature="2226:2254" ph="SELECT MAX(i... playlist" />
+                <marker date="1511611325120" expanded="true" signature="2431:2510" ph="INSERT INTO song_playlist... " />
+                <marker date="1511611325120" expanded="true" signature="2807:2868" ph="DELETE FROM " />
+                <marker date="1511611325120" expanded="true" signature="3087:3133" ph="DELETE FROM " />
+                <marker date="1511611325120" expanded="true" signature="3165:3198" ph="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +146,6 @@
     <findStrings>
       <find>song</find>
       <find>thank you</find>
-      <find>album</find>
       <find>barak</find>
       <find>salam</find>
       <find>stand</find>
@@ -55,15 +154,40 @@
       <find>print</find>
       <find>so real</find>
       <find>tala</find>
+      <find>close</find>
+      <find>playlist</find>
+      <find>loadmusic</find>
+      <find>viewsong</find>
+      <find>musicl</find>
+      <find>album</find>
+      <find>artistsview</find>
+      <find>music</find>
+      <find>view</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/songs/Playlist.py" />
         <option value="$PROJECT_DIR$/initDB.py" />
+        <option value="$PROJECT_DIR$/Album.py" />
+        <option value="$PROJECT_DIR$/Database.py" />
+        <option value="$PROJECT_DIR$/Artist.py" />
+        <option value="$PROJECT_DIR$/Band.py" />
+        <option value="$PROJECT_DIR$/Song.py" />
         <option value="$PROJECT_DIR$/musicly.py" />
+        <option value="$PROJECT_DIR$/Playlist.py" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="170" />
@@ -71,6 +195,7 @@
     <option name="width" value="1026" />
     <option name="height" value="546" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -87,6 +212,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,14 +224,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../musicly2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\menna\PycharmProjects\musicly" />
+      <recent name="C:\Users\menna\PycharmProjects\musicly\songs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\menna\PycharmProjects\musicly\Classes" />
+      <recent name="C:\Users\menna\PycharmProjects" />
       <recent name="C:\Users\menna\PycharmProjects\musicly" />
     </key>
   </component>
@@ -134,6 +268,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="musicly" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/initDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -151,6 +286,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="musicly" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/musicly.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -182,15 +318,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12518302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41324922" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -199,9 +337,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -211,13 +352,127 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Album.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511555946926" expanded="true" signature="1069:1130" ph="DELETE FROM " />
+            <marker date="1511555946926" expanded="true" signature="1326:1390" ph="INSERT INTO album... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Playlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="82" column="70" lean-forward="true" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511611325120" expanded="true" signature="1795:1886" ph="INSERT INTO song_playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2105:2188" ph="INSERT INTO playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2226:2254" ph="SELECT MAX(i... playlist" />
+            <marker date="1511611325120" expanded="true" signature="2431:2510" ph="INSERT INTO song_playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2807:2868" ph="DELETE FROM " />
+            <marker date="1511611325120" expanded="true" signature="3087:3133" ph="DELETE FROM " />
+            <marker date="1511611325120" expanded="true" signature="3165:3198" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/musicly.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Playlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511611325120" expanded="true" signature="1795:1886" ph="INSERT INTO song_playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2105:2188" ph="INSERT INTO playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2226:2254" ph="SELECT MAX(i... playlist" />
+            <marker date="1511611325120" expanded="true" signature="2431:2510" ph="INSERT INTO song_playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2807:2868" ph="DELETE FROM " />
+            <marker date="1511611325120" expanded="true" signature="3087:3133" ph="DELETE FROM " />
+            <marker date="1511611325120" expanded="true" signature="3165:3198" ph="DELETE FROM " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Band.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511603563836" expanded="true" signature="835:890" ph="INSERT INTO band... " />
+            <marker date="1511603563836" expanded="true" signature="1087:1147" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Artist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511603296707" expanded="true" signature="1029:1104" ph="INSERT INTO artist... " />
+            <marker date="1511603296707" expanded="true" signature="1304:1366" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Song.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511603563882" expanded="true" signature="1568:1599" ph="DELETE FROM " />
+            <marker date="1511603563882" expanded="true" signature="1631:1672" ph="DELETE FROM " />
+            <marker date="1511603563882" expanded="true" signature="1704:1744" ph="DELETE FROM " />
+            <marker date="1511603563882" expanded="true" signature="2026:2133" ph="INSERT INTO song... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Album.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511555946926" expanded="true" signature="1069:1130" ph="DELETE FROM " />
+            <marker date="1511555946926" expanded="true" signature="1326:1390" ph="INSERT INTO album... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21384">
+          <caret line="1188" column="9" lean-forward="false" selection-start-line="1188" selection-start-column="4" selection-end-line="1188" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -225,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3348">
           <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -233,9 +487,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -243,7 +501,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3348">
           <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -251,9 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4716">
           <caret line="266" column="38" lean-forward="false" selection-start-line="266" selection-start-column="38" selection-end-line="266" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -261,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3348">
           <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -269,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -279,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -287,9 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -297,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -305,9 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -315,24 +634,196 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/initDB.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3348">
-          <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicly.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="295" column="23" lean-forward="false" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
+        <state relative-caret-position="18">
+          <caret line="477" column="45" lean-forward="false" selection-start-line="477" selection-start-column="45" selection-end-line="477" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/menna/PycharmProjects/musicly">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Song.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511603563882" expanded="true" signature="1568:1599" ph="DELETE FROM " />
+            <marker date="1511603563882" expanded="true" signature="1631:1672" ph="DELETE FROM " />
+            <marker date="1511603563882" expanded="true" signature="1704:1744" ph="DELETE FROM " />
+            <marker date="1511603563882" expanded="true" signature="2026:2133" ph="INSERT INTO song... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Album.py" />
+    <entry file="file://$PROJECT_DIR$/Classes/Artist.py" />
+    <entry file="file://$PROJECT_DIR$/Classes/Band.py" />
+    <entry file="file://$PROJECT_DIR$/Classes/Playlist.py" />
+    <entry file="uml://Python/#C:/Users/menna/PycharmProjects/musicly/Classes">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/menna/PycharmProjects/musicly/Classes</OriginalElement>
+          <nodes>
+            <node x="0.0" y="626.0">Classes.Album.Album</node>
+            <node x="0.0" y="0.0">Classes.Song.Song</node>
+            <node x="0.0" y="1076.0">Classes.Band.Band</node>
+            <node x="763.0" y="0.0">Classes.Playlist.Playlist</node>
+            <node x="509.0" y="626.0">Classes.Artist.Artist</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="223.0" y="311.0" />
+          <SelectedNodes>
+            <node>Classes.Song.Song</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/menna/PycharmProjects/musicly/Band.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/menna/PycharmProjects/musicly/Band.py</OriginalElement>
+          <nodes>
+            <node x="" y="">Artist.Artist</node>
+            <node x="" y="">Playlist.Playlist</node>
+            <node x="" y="">Song.Song</node>
+            <node x="" y="">Band.Band</node>
+            <node x="" y="">Album.Album</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="633.0" y="1124.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Playlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511611325120" expanded="true" signature="1795:1886" ph="INSERT INTO song_playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2105:2188" ph="INSERT INTO playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2226:2254" ph="SELECT MAX(i... playlist" />
+            <marker date="1511611325120" expanded="true" signature="2431:2510" ph="INSERT INTO song_playlist... " />
+            <marker date="1511611325120" expanded="true" signature="2807:2868" ph="DELETE FROM " />
+            <marker date="1511611325120" expanded="true" signature="3087:3133" ph="DELETE FROM " />
+            <marker date="1511611325120" expanded="true" signature="3165:3198" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Band.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511603563836" expanded="true" signature="835:890" ph="INSERT INTO band... " />
+            <marker date="1511603563836" expanded="true" signature="1087:1147" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Album.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511555946926" expanded="true" signature="1069:1130" ph="DELETE FROM " />
+            <marker date="1511555946926" expanded="true" signature="1326:1390" ph="INSERT INTO album... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/menna/PycharmProjects/musicly/Artist.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/menna/PycharmProjects/musicly/Artist.py</OriginalElement>
+          <nodes>
+            <node x="-104.28571428571422" y="-115.7142857142857">Artist.Artist</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="-464.0" y="92.0" />
+          <SelectedNodes>
+            <node>Artist.Artist</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Artist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1511603296707" expanded="true" signature="1029:1104" ph="INSERT INTO artist... " />
+            <marker date="1511603296707" expanded="true" signature="1304:1366" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
